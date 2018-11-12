@@ -60,6 +60,6 @@ service = input("How was the level of service (good, fair or bad)? ")
 if service == "good":
     print(f"Tip amount: {bill * 0.2} \nTotal amount: {bill + bill * 0.2}")
 elif service == "fair":
-    do stuff
+    print(f"Tip amount: {bill * 0.15} \nTotal amount: {bill + bill * 0.15}")
 elif service == "bad":
-    do stuff
+    print(f"Tip amount: {bill * 0.1} \nTotal amount: {bill + bill * 0.1}")
